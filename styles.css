@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../assets/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -50px; 
+    margin-right: -50px; 
+    
+}
+.profile{
+    background-color: #ff574a;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px 90px;
+    font-family: sans-serif;
+    
+}
+
+.profile-pic{
+    border-radius: 50%;
+    width: 150px;
+    padding: 6px;
+}
+
+.menu-icon,.setting-icon{
+    width: 25px;
+
+}
+
+.social-icon{
+    width: 20px;
+    cursor: pointer;
+}
+
